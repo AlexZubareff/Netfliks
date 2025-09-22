@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/index.js" defer></script>
   <title>Netclicks</title>
 </head>
 
@@ -29,10 +30,10 @@
     <section class="search">
       <div class="container">
         <div class="search-box">
-          <input type="text" placeholder="Что хотите посмотреть?">
+          <input id="search-input" type="text" placeholder="Что хотите посмотреть?">
           <button>
             <img src="./img/ico/search.svg" alt="search">
-            <span>Найти</span>
+            <span id="search-button">Найти</span>
           </button>
         </div>
       </div>
@@ -43,7 +44,7 @@
           <div class="content-main">
             <h2 class="content-main__title">Результаты поиска</h2>
             <div class="content-cards">
-              <div class="content-cards__item">
+              <!-- <div class="content-cards__item">
                 <div class="content-cards__item--img">
                   <img src="./img/image-film.jpg" alt="image-film">
                 </div>
@@ -108,7 +109,7 @@
                 </div>
                 <p class="content-cards__item--desc">Фантастика, приключения</p>
                 <p class="content-cards__item--rating">7.8</p>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="content-sidebar">

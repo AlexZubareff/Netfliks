@@ -129,6 +129,7 @@ p {
 
 .content-cards__item {
   width: calc((100% - 60px) / 3);
+  text-decoration: none;
 }
 
 .content-cards__item--img {
@@ -371,7 +372,6 @@ p {
   }
 
   .content-film__info {
-
     width: 100%;
   }
 }
